@@ -1,0 +1,55 @@
+.landing-container {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.landing-left-panel, .landing-right-panel {
+  width: 100%;
+  height: 100%;
+}
+
+.landing-left-panel {
+  border: 4px solid black;
+  border-right: 2px solid black;
+}
+
+.landing-right-panel {
+  border: 4px solid black;
+  border-left: 2px solid black;
+}
+
+.landing-title {
+  position: relative;
+  display: inline-block;
+  font-size: 9rem;
+  top: 11.618rem;
+  left: 10rem;
+  font-weight: 300;
+}
+
+.landing-title > .line-cursur {
+  padding-left: 5rem;
+}
+
+.landing-right-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing-right-panel h1 {
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+
+.landing-right-panel p {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.signup-link:hover {
+  cursor: pointer;
+  text-decoration-line: underline;
+}
