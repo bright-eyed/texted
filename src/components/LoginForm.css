@@ -8,7 +8,7 @@
 }
 
 .text-field {
-  font-weight: 300;
+  font-weight: 100;
   width: 20rem;
   height: 3rem;
   font-size: 1rem;
@@ -18,8 +18,13 @@
   margin-bottom: 0.5rem;
 }
 
+.text-field:focus {
+  outline-width: 0;
+  border-bottom: 1px solid black;
+}
+
 .btn {
-  font-weight: 300;
+  font-weight: 100;
   width: 20rem;
   height: 3rem !important;
   font-size: 1rem !important;
@@ -30,6 +35,7 @@
 
 .login-btn {
   margin: 1rem 0;
+  background-color: white;
 }
 
 .login-btn:hover {

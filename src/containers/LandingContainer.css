@@ -25,7 +25,7 @@
   font-size: 9rem;
   top: 11.618rem;
   left: 10rem;
-  font-weight: 300;
+  font-weight: 100;
 }
 
 .landing-title > .line-cursur {
@@ -41,15 +41,19 @@
 
 .landing-right-panel h1 {
   font-size: 2.5rem;
-  font-weight: 300;
+  font-weight: 100;
 }
 
 .landing-right-panel p {
   font-size: 1.2rem;
-  font-weight: 300;
+  font-weight: 100;
 }
 
 .signup-link:hover {
   cursor: pointer;
   text-decoration-line: underline;
+}
+
+.Typist .Cursor--blinking {
+  animation: blink 1s step-end infinite;
 }
