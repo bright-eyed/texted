@@ -1,4 +1,5 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 
 import './LoginForm.css'
 
@@ -18,7 +19,12 @@ class LoginForm extends Component {
             onChange={this.props.handleChange.bind(this)}
           />
           <input className='btn login-btn' type='submit' value='Sign in'/>
+          <p>
+            Don't you have an account?
+            <span className='signup-link'><Link to='/signup'>Sign up</Link></span>
+          </p>
         </form>
+        
       </div>
     );
   }

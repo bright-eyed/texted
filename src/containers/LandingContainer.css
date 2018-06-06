@@ -44,16 +44,6 @@
   font-weight: 100;
 }
 
-.landing-right-panel p {
-  font-size: 1.2rem;
-  font-weight: 100;
-}
-
-.signup-link:hover {
-  cursor: pointer;
-  text-decoration-line: underline;
-}
-
 .Typist .Cursor--blinking {
   animation: blink 1s step-end infinite;
 }
